@@ -66,6 +66,7 @@
 	  <None Remove="Resources\Images\hotel.png" />
 	  <None Remove="Resources\Images\hotel1.png" />
 	  <None Remove="Resources\Images\hotel2.png" />
+	  <None Remove="Resources\Images\Suite.jpeg" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -76,6 +77,9 @@
 
 	<ItemGroup>
 	  <MauiXaml Update="Views\ContratacaoHospedagem.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\HospedagemContratada.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\Sobre.xaml">
