@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre"
+             BackgroundColor="AliceBlue">
+    
+    <VerticalStackLayout>
+
+        <Button Text="Sobre o Aplicativo"
+            FontFamily="LobsterRegular"
+            FontSize="30"
+            TextColor="Black"
+                BackgroundColor="DarkViolet"/>
+
+        <Frame Padding="10" Margin="30" BorderColor="Black" BackgroundColor="Transparent">
+            <VerticalStackLayout>
+      
+              <Image
+            Source="hotel1.png"
+            HeightRequest="150"
+            Aspect="AspectFit"/>
+                <Label
+                    Text="Desenvolvedor:"
+                    FontFamily="LobsterRegular"
+                    TextColor="BlueViolet"
+                    FontSize="20"/>
+                <Label
+                    Text="Pedro Vitor De Moura Oliveira"
+                    TextColor="Black"
+                    Padding="4"/>
+                <Label
+                    Text="Ano de Desenvolvimento:"
+                    TextColor="BlueViolet"
+                    FontFamily="LobsterRegular"
+                    FontSize="20"/>
+                <Label
+                    Text="2024"
+                    TextColor="Black"
+                    Padding="4"/>
+                <Button Text="Voltar"
+                        FontFamily="LobsterRegular"
+                        FontSize="25"/>
+
+
+
+
+
+
+
+
+
+
+
+
+            </VerticalStackLayout>
+    </Frame>
+ 
+    </VerticalStackLayout>
+</ContentPage>
